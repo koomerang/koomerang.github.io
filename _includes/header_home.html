@@ -1,0 +1,31 @@
+<section class="main-header home">
+
+    <div class="vertical-container">
+
+      <nav id="main-nav" role="navigation">
+        <a href="/blog/" class="{% if page.url == '/blog/index.html' %}selected{% endif %}">Writing</a>
+        <!-- <a href="/courses/" class="{% if page.url == '/courses/index.html' %}selected{% endif %}">Courses</a> -->
+        <a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a> 
+        <a href="/contact/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">Let's Talk</a>
+      </nav>
+
+      <div class="wrapper clearfix">
+
+  	        <header>
+  	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+  		            <img class="img-circle" src="http://alumni.makersacademy.com/alumni/2013/november/kumy.jpg">
+                  <h1 id="main-title">Hi! I'm Kumy</h1>
+  	        	{% if page.path != 'index.html' %}</a>{% endif %}
+  	        </header>
+
+  		</div>
+
+      <div class="feature-box">
+
+        <h2 id="main-subtitle">I help startups grow <br>I work with startups to help find their engines of growth.</h2>
+
+      </div>
+
+    </div>
+
+</section>

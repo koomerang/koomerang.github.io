@@ -1,0 +1,4 @@
+permalink: '/blog/:year/:title/'
+base: http://kumy.co
+name: Growth Engines
+author: Kumy Veluppillai

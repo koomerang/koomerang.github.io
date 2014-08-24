@@ -1,0 +1,25 @@
+<section class="main-header regular">
+
+    <div class="vertical-container">
+
+    	<div class="wrapper clearfix">
+
+	        <header>
+	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+		            <h1 id="main-title">Growth Engines</h1>
+		            <h2 id="main-subtitle">I Help Startups Grow</h2>
+	        	{% if page.path != 'index.html' %}</a>{% endif %}
+	        </header>
+
+  	      <nav id="main-nav" role="navigation">
+            <a href="/blog/" class="{% if page.url == '/blog/index.html' %}selected{% endif %}">Writing</a>
+            <!-- <a href="/courses/" class="{% if page.url == '/courses/index.html' %}selected{% endif %}">Courses</a> -->
+            <a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
+            <a href="/contact/" class="{% if page.url == '/contact/index.html' %}selected{% endif %}">Let's Talk</a>
+  			  </nav>
+
+		  </div>
+
+    </div>
+
+</section>
